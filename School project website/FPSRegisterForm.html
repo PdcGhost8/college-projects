@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html>
+<head>
+<style>
+body {
+    background-color: lightblue;
+}
+</style>
+<meta charset="utf-8">
+<header>
+<title>Homework1</title>
+<h1> form to sign up the first person shooter club</h1>
+    <nav>
+    <ul>
+    <li>Hello and welcome to FPS club</li>
+    <li> below is a drop down list for what game you want to focus on</li>
+    </ul>
+    </nav>
+    </header>
+</head>
+
+<body>
+<form action="/~pcox/cgi-bin/registerAssignment2.cgi"
+ METHOD="post">
+ <p>what game do you like?</p>
+ <br>
+ <select NAME="credit_card" SIZE=1>
+  <option value="Call of Duty">Call of Duty</option>
+  <option value="Battlefield">Battlefield</option>
+  <option value="Overwatch">OverWatch</option>
+  <option value="Titanfall">Titanfall</option>
+</select>
+ <br>
+ <p>What playstyle do you like : 
+<br><SELECT NAME="activity" SIZE=4 MULTIPLE>
+  <OPTION>Run and gun</OPTION>
+  <OPTION>Agressive Recon</OPTION>
+  <OPTION>Camper</OPTION>
+  <OPTION>Support</OPTION>
+  <option>all</option>
+</SELECT>
+<br>
+ 
+ 
+
+   <input type="radio" name="bread" value="male"> Male<br>
+  <input type="radio" name="bread" value="female"> Female<br>
+  <input type="radio" name="bread" value="other"> Other
+  <br>
+    UserName: <input TYPE="TEXT" name="username"><br>
+
+   Password : <INPUT TYPE="password" NAME="password"><br>
+   
+    <input type="checkbox" name="toppings" value="yes"> I want to be kept up to date with email<br>
+    Email: <input type="email" name= "email">
+    <br>
+    thoughts:<textarea row="yy" cols="xx" name="comments">
+:
+
+</textarea>  </p>
+   <button type="reset" value="Reset">Reset</button>
+  <input type="SUBMIT" value="Register">
+</form>
+
+	
+
+
+</body>
+</html>
